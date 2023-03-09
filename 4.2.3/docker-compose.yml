@@ -14,7 +14,8 @@ networks:
     driver: bridge
 
 
-#services:
+services:
+
 #  www:
 #    image: nginx
 #    ports:
