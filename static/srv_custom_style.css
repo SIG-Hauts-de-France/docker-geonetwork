@@ -18,6 +18,14 @@ h1,
     font-family: 'Etelka Text Pro Bold', Arial;
 }
 
+.gn-row-main {
+    padding: 2em 0;
+}
+
+.search-over {
+    font-size: 1.5em;
+}
+
 .clamp-2 {
     word-break: break-word;
 }
