@@ -8,6 +8,10 @@
     src: url(./EtelkaTextPro.otf);
 }
 
+body {
+    font-family: 'Etelka Text Pro', Arial;
+}
+
 h1 {
-    background-color: white;
+    color: white;
 }
