@@ -12,8 +12,25 @@ body {
     font-family: 'Etelka Text Pro', Arial;
 }
 
-.gn-card .gn-card-heading .gn-md-title a,
-.gn-card .gn-card-heading .gn-md-title a:hover {
+h1 {
     font-family: 'Etelka Text Pro Bold', Arial;
+}
+
+.gn-card .gn-card-heading .gn-md-title,
+.gn-card .gn-card-heading .gn-md-title a,
+.gn-card .gn-card-heading .gn-md-title a:hover,
+.search-over,
+.search-over strong {
     color: white;
+}
+
+.gn-topic .panel {
+    background: #0050A4;
+    border-color: #002B58;
+}
+
+.gn-topic .panel:hover,
+.gn-topic .panel .panel-footer {
+    border-color: #002B58;
+    background-color: #003771;
 }
