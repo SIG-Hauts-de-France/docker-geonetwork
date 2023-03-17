@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Etelka Text Pro Bold';
+    src: url(./EtelkaTextProBold.otf);
+}
+
+@font-face {
+    font-family: 'Etelka Text Pro';
+    src: url(./EtelkaTextPro.otf);
+}
+
+h1 {
+    background-color: white;
+}
