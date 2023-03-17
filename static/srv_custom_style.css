@@ -26,6 +26,16 @@ h1,
     color: white;
 }
 
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>li>a:hover,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.open>a:hover,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.active>a:hover,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>li>a:focus,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.open>a:focus,
+[ng-app="gn_admin"] .gn-top-bar .navbar-nav>.active>a:focus {
+    color: #0050A4;
+    background-color: white;
+}
+
 a {
     color:#0050A4;
 }
