@@ -18,6 +18,10 @@ h1,
     font-family: 'Etelka Text Pro Bold', Arial;
 }
 
+.navbar-default .gn-logo-link .gn-logo {
+    margin-top: 0px;
+}
+
 .gn-row-main {
     padding: 2em 0;
 }
