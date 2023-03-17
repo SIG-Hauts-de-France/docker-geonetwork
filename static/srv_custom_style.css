@@ -12,6 +12,8 @@ body {
     font-family: 'Etelka Text Pro', Arial;
 }
 
-h1 {
+.gn-card .gn-card-heading .gn-md-title a,
+.gn-card .gn-card-heading .gn-md-title a:hover {
+    font-family: 'Etelka Text Pro Bold', Arial;
     color: white;
 }
