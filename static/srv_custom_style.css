@@ -24,13 +24,22 @@ h1 {
     color: white;
 }
 
-.gn-topic .panel {
-    background: #0050A4;
-    border-color: #002B58;
-}
-
+.panel-default,
+.gn-topic .panel,
 .gn-topic .panel:hover,
 .gn-topic .panel .panel-footer {
     border-color: #002B58;
+}
+
+.gn-topic .panel,
+.nav-pills>li.active>a {
+    background-color: #0050A4;
+}
+
+.gn-topic .panel:hover,
+.gn-topic .panel .panel-footer,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
     background-color: #003771;
 }
+
