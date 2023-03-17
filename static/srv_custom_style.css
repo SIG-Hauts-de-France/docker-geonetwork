@@ -37,6 +37,7 @@ a:focus{
     color:#003771;
 }
 
+.btn-primary,
 .panel-default,
 .gn-topic .panel,
 .gn-topic .panel:hover,
@@ -48,12 +49,15 @@ a:focus{
     border-color: #002B58 !important;
 }
 
+.btn-primary,
 .gn-topic .panel,
 .nav-pills>li.active>a,
 .gn-row-topics .gn-topic-select input:checked+span {
     background-color: #0050A4;
 }
 
+.btn-primary:hover,
+.btn-primary:focus,
 .gn-topic .panel:hover,
 .gn-topic .panel .panel-footer,
 .nav-pills>li.active>a:hover,
