@@ -12,7 +12,7 @@ body {
     font-family: 'Etelka Text Pro', Arial;
 }
 
-h1 {
+h1, .nav {
     font-family: 'Etelka Text Pro Bold', Arial;
 }
 
@@ -27,19 +27,24 @@ h1 {
 .panel-default,
 .gn-topic .panel,
 .gn-topic .panel:hover,
-.gn-topic .panel .panel-footer {
+.gn-topic .panel .panel-footer,
+.gn-card .gn-card-heading {
     border-color: #002B58;
 }
 
 .gn-topic .panel,
-.nav-pills>li.active>a {
+.nav-pills>li.active>a,
+.gn-row-topics .gn-topic-select input:checked+span,
+.navbar-default .gn-user-info:hover .gn-user-role {
     background-color: #0050A4;
 }
 
 .gn-topic .panel:hover,
 .gn-topic .panel .panel-footer,
 .nav-pills>li.active>a:hover,
-.nav-pills>li.active>a:focus {
+.nav-pills>li.active>a:focus,
+.gn-row-topics .gn-topic-select input:checked+span:hover,
+.gn-row-topics .gn-topic-select input:checked+span:focus {
     background-color: #003771;
 }
 
