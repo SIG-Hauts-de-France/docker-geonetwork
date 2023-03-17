@@ -24,18 +24,24 @@ h1, .nav {
     color: white;
 }
 
+.navbar-default .navbar-nav>li>a:hover .gn-user-role {
+    color:#003771;
+}
+
 .panel-default,
 .gn-topic .panel,
 .gn-topic .panel:hover,
-.gn-topic .panel .panel-footer,
-.gn-card .gn-card-heading {
+.gn-topic .panel .panel-footer {
     border-color: #002B58;
+}
+
+.gn-card .gn-card-heading {
+    border-color: #002B58 !important;
 }
 
 .gn-topic .panel,
 .nav-pills>li.active>a,
-.gn-row-topics .gn-topic-select input:checked+span,
-.navbar-default .gn-user-info:hover .gn-user-role {
+.gn-row-topics .gn-topic-select input:checked+span {
     background-color: #0050A4;
 }
 
