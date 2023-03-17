@@ -18,7 +18,7 @@ h1,
     font-family: 'Etelka Text Pro Bold', Arial;
 }
 
-h2 {
+.clamp-2 {
     word-break: break-word;
 }
 
