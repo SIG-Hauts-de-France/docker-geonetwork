@@ -24,7 +24,8 @@ h1, .nav {
     color: white;
 }
 
-.navbar-default .navbar-nav>li>a:hover .gn-user-role {
+.navbar-default .navbar-nav>li>a:hover .gn-user-role, 
+.navbar-default .navbar-nav>li>a:focus .gn-user-role{
     color:#003771;
 }
 
