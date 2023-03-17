@@ -12,7 +12,9 @@ body {
     font-family: 'Etelka Text Pro', Arial;
 }
 
-h1, .nav {
+h1,
+.nav,
+.gn-results-editor a {
     font-family: 'Etelka Text Pro Bold', Arial;
 }
 
@@ -24,8 +26,14 @@ h1, .nav {
     color: white;
 }
 
+a {
+    color:#0050A4;
+}
+
 .navbar-default .navbar-nav>li>a:hover .gn-user-role, 
-.navbar-default .navbar-nav>li>a:focus .gn-user-role{
+.navbar-default .navbar-nav>li>a:focus .gn-user-role,
+a:hover,
+a:focus{
     color:#003771;
 }
 
