@@ -52,7 +52,8 @@ a:focus{
 .btn-primary,
 .gn-topic .panel,
 .nav-pills>li.active>a,
-.gn-row-topics .gn-topic-select input:checked+span {
+.gn-row-topics .gn-topic-select input:checked+span,
+[ng-app="gn_admin"] .gn-top-bar .navbar-collapse {
     background-color: #0050A4;
 }
 
